@@ -32,6 +32,14 @@ AVL_Tree/
 ### 1.
 - Define basic API
 - Write function/method prototype
+  * [x] constructor
+  * [x] insert
+  * [x] force_insert
+  * [x] get
+  * [x] find & findkey
+  * [x] pop
+  * [x] reset
+  * [x] size
 ### 2.
 - Write essential tests
 ### 3.
