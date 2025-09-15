@@ -18,12 +18,8 @@ std::cout << tree.size() << std::endl;  // stdout: 2
 tree.get(42);  // return iterator of node with key 42
 tree.find("Hello!");    // return iterator of node with value "Hello!"
 
-<<<<<<< HEAD
 tree.insert(64, "replacement"); // return old value if replacing
 tree.insert(Node<int, std::string> (64, "another replacement")); // return a pointer to old node if replacing
-=======
-tree.insert(64, "replacement"); // replace with new value and return old node
->>>>>>> main
 tree.force_insert(64, "force replacement"); // insert without returning existing node if present
 
 tree.delete(42);
