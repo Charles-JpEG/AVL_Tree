@@ -29,7 +29,7 @@ AVL_Tree/
 
 ## Implementation Phases
 
-### 1.
+### 1. Plan
 - Define basic API
 - Write function/method prototype
   * [x] constructor
@@ -40,7 +40,19 @@ AVL_Tree/
   * [x] pop
   * [x] reset
   * [x] size
-### 2.
+### 2. Basic methods
 - Write essential tests
-### 3.
+  * [ ] Scale: 50 nodes; method: insert, pop, clear
+  * [ ] Scale: 1000 nodes;
 - Implement basic functionalities
+  * [ ] constructor
+  * [ ] insert
+  * [ ] force_insert
+  * [ ] get
+  * [ ] find & findkey
+  * [ ] pop
+  * [ ] reset
+  * [ ] size
+### 3. Extended methods
+- Iterator for linear triversal
+-
