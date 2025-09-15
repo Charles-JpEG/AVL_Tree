@@ -21,11 +21,6 @@ AVL_Tree/
 │   ├── test_avl_tree.cpp   # AVL tree tests
 │   ├── test_performance.cpp # Performance benchmarks
 │   └── test_stress.cpp     # Stress testing
-├── examples/                # Usage examples
-│   ├── CMakeLists.txt      # Examples build config
-│   ├── basic_usage.cpp     # Basic operations
-│   ├── custom_types.cpp    # Using custom data types
-│   └── performance_demo.cpp # Performance demonstration
 └── docs/                    # Documentation
     ├── api.md              # Detailed API reference
     ├── performance.md      # Performance analysis
@@ -33,3 +28,11 @@ AVL_Tree/
 ```
 
 ## Implementation Phases
+
+### 1.
+- Define basic API
+- Write function/method prototype
+### 2.
+- Write essential tests
+### 3.
+- Implement basic functionalities
