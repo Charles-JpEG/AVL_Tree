@@ -8,8 +8,24 @@ AVL trees (Adelson-Velsky and Landis trees) are binary search trees where the he
 
 ## Installation
 ## Usage
-```
-TODO
+```c++
+AVL_Tree<int, std::string> tree();
+tree.insert(42, "Hello!");
+tree.insert(Node<int, std::string> (64, "another"));
+
+std::cout << tree.size() << std::endl;  // stdout: 2
+
+tree.get(42);  // return iterator of node with key 42
+tree.find("Hello!");    // return iterator of node with value "Hello!"
+
+tree.insert(64, "replacement"); // replace with new value and return old node
+tree.force_insert(64, "force replacement"); // insert without returning existing node if present
+
+tree.delete(42);
+std::cout << tree.size() << std::endl;  // stdout: 1
+
+tree.reset();
+std::cout << tree.size() << std::endl;  // stdout: 0
 ```
 
 ## License
