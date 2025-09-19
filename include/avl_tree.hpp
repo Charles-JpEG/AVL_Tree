@@ -1,6 +1,4 @@
-#ifndef AVL_TREE_HPP
-#define AVL_TREE_HPP
-
+#pragma once
 #include "node.hpp"
 #include <memory>
 
@@ -42,5 +40,3 @@ class AVL_Tree {
     private:
     size_t size_ = 0;
 };
-
-#endif

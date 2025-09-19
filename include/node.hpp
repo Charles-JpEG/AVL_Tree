@@ -1,6 +1,4 @@
-#ifndef NODE_HPP
-#define NODE_HPP
-
+#pragma once
 // This is node definition for AVL-Tree
 
 template<typename key_t, typename data_t>
@@ -21,5 +19,3 @@ class Node {
     key_t key_;
     data_t data_;
 };
-
-#endif
